@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "SlimBliss",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/slimbliss.png",
       "description": "Verified independent editorial review of SlimBliss. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official SlimBliss Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-slimbliss" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="SlimBliss Review 2026" class="hero-img"/>
+        <img src="thumbnails/slimbliss.png" alt="SlimBliss Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

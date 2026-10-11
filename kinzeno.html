@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Kinzeno",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/kinzeno.png",
       "description": "Verified independent editorial review of Kinzeno. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Kinzeno Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-kinzeno" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Kinzeno Review 2026" class="hero-img"/>
+        <img src="thumbnails/kinzeno.png" alt="Kinzeno Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

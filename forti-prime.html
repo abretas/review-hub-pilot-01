@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Forti Prime",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/forti-prime.png",
       "description": "Verified independent editorial review of Forti Prime. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Forti Prime Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-forti-prime" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCADIAG0DASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAwECBAUGAAf/xAA/EAACAgEBBgMEBwYDCQAAAAABAgADBBEFEiExQVETYXEGIjOBMkJScpGhsRQVI2LR8CRTczQ1Q0RjgpLB4f/EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACIRAAICAQUBAAMBAAAAAAAAAAABAhEDEhMhMVFBFCJCwf/aAAwDAQACEQMRAD8A9AnTo1tSNAdIBzOq8zGG5egJgmVhzEZrADG/ss7x27CB1nawAvjN2E7xm7CCiwAvjnsIov7rAzoBIFynyjwQRqDrITOqjViB6wdOcjZaVVnXeOhPSAWUSLEMAWIYsQwBpjTp1AjjGmAMIX7IjCFHSPaMaANYgdIJ7t2PflI9n9/nAEfKYa6SNZlWH6xi2czI7iAMd2Y8STCbPOmfT96CIhMPhm0n+cQDURDFiGALGtHRDAGmNMUjjwbTyMafEHQH0MAaYxjHM7DnW0G1g6qw+UAa/KR7Ov8AfeFe5ex/CRbbVPf8IAN+ZgHIi2WLx5yO9qj6pPygDmYesJhq1mZUANPeBkXxLWOiVH5y02Vs7I8dL7/cVeIHeAX0QxYhgCzokaSW9IAjqHOhg2qcfRcwoAEUwCKTcvnGG6wcxJZEE6iARGyT1EC+Qp5iSbEB6SJbWBABtYh+rBNYo5KI2zQSJbeF7wCQbdTNLjsHoQgg+6OUw5ynZwK0J9ZPozrMchhZo3UQDXRDIWzto15q6cFsHMd/STTAEbtEka/Poozq8a5txrF3lY8jx5STAs7WdrOi6rAE3o0kGObd7wTEQDiFPSMZEPMTiYMtAGvRUfqiR7MWj7IhXskey2AAtx6RyUCVmVWo10k2+4yBaGsMAbs/IenJVlOhUzbowdFYciNZiqqVqBtsYKq8SSeAmvwLVuwKLEOqsgIPlAM97WqGy6Nf8s/rIGFtnOwQEDi6ofUs46ehlj7V/wC2Y/8Apn9ZRGdEUnFWcc5OM3RpMf2pxH0GRVZSe4G8JYU7VwMj4WXUT2LaH85iSoME9SnpIeJErO/p6HvBhqpBHkdYxiZ53uMn0HZfusRHLkZ4O7Xl5GvQByZXaZffXhv2MC7GYzf23pqMjI+bQF2Vtav4uVkL56xtMnfibN2MjWnQasQB5zFvlZj/AEsu4/8AeZHdWc++7N94kxtsbyNZkZ+FT8TJr17A6n8pXX+0FC8MalrD3bgJRitR0i6ASVjRV5n8C5WZk5ra3v7o5IvBRPTtjDTY+GP+kv6TyyeqbJ/3Tif6S/pImqROJtt2RNu7NXPKtqVdF4MOnrMxkYWXin36iy/aTiJu2+J8oGzGrfjpunykRnXBaeLU7MB4ixCw7zT7Tqw6Q7ZCI6rzO7x17SpNGybhqljVk+ZH6zZOzmcKK6utrrVrXmx0mgw8CnHoNjsErX6TnmZEw8LHov8AEpyPFOmmhI4Q+3bGV8bHX6ATe07kzPNkcI2i2OC7ZOxFxspHZKjuKdAWPExmVs9HU7n/AIniDB7LY4tbrkFag2hG+wB/CSLs7GUE+MreS8Zzwyurkzp0xa5MhtPC/Z230Gik6EdjK4mana9S3qwJ3BYoOvaUhwcJPiZRPoROtO1ZzONOivLAdYikudEUsewGss6K9mtcK0XffpvanWXOPi1+GCugB6KNJDlRaMLKLE2TdewN/uL9kfSP9J6Zh1irDorUaBUAA+UzVaKh0UaTUU/Ar+6JjKVnRCGk5vifKIx3VLdhrFb4nygsk6UP6SF2WfCMht6825K0a8F99vUyu00hsxvE2hkMftkfhwgTOpHnyfITCuFGUrHgp4GaYV15aK+9u31IVVgNdB3A7zItJeJtN8cBbNWUciOYlZwUlRbHPSw19WNXY29ffY+vEGvQ/mYXDxDa4sdSlK8SW6w/78qYatYhP86cZBzdtBxopNh6cNAJy/i2+TbciM25lBlZRzfgB5SiMJda1thdzqxg+fKddUYt27BsSjB0OjKdQZq9m3C6kEcmAYTLNxEvPZ9tcdR2LCUmuDXE+S6XnNNV8FPuiZkc5pqvgp90TA6jm+J8oLJ40NCt8T5Rlo3qmHlJXZD6MDcNMu8H/Mb9ZabB1AzCrVqwrGjWD3Rx6yDtKvwtp3r0Y7w+ckYOHfZhW215VVKOfDYWHTe6850Po4o2ph8pLrzTTkDBKXWKviUabwkbLzMPGzHxhs2lqkbcJJO8fOBt2Zl0XUhdxjY2lb1uCN71li/713hZZszHtuX/AIhALfrI4RZW/n+g12Zj05OeqYwyPDVGqrbnx14SPbio+FktlbNTC3E1RweJPaAXJ2ia8qw1ljkOK2fkVboBI+VdmYuM2FmVkhzvjxDqR6GRT9GqNdEjAy0vW/8AweOvhUlwQuupHeBwsp8s5TWLWN3HYAIuggsfHzacc3VooryB4erHnqYq4L4jWJZn49JYbrgNqdO0NIlOXBVHlLv2dH8DX+cyks0XUA6gde80ewqimEhPUb34mTPoYlyWLLvKyg6ajTWaikbtFa9lA/KZdiACSdAOs1NZ1qQjj7onOdYjfE+U6K494HyjYBlfabGKWV5AHAHcb/1A4uZiVbIarIrFzG7e8PUjhpz1ml2jiplYz1uPdYaHy85h76rMW96LRoyn8R3nRF6kcmROLtFrj7Qx3yMPGxqDRUt4sYu+vGEpTZ122W3L8gXLYW0LAKxB5CUDRm6WViCBujXnJcUZrI/C+8Y3YdtjLuFs9SV7cROzRTtPLvxb7FR8ezeV+6dRKI0N7+tiDcG99Ln6QT0kc2Q+7vfS/vjKfr8ZfVKuUXT5teRjEhlStMlFrUnTRRpxjMrIr/aLHTMw61J4Fa99/nKExjEKJbQhuNjhWcnKWlTqXbn5dTNfj1iukADQdPSVGwsAqP2i0aM490dl/wDsvDwEzm/htijXIK1d8bu9u68z5TV1gCtAOWgmOy973d08CdD/AH19Jsa+FSegmZsc/MRsVmXfC6je010nQBp8/nKjbGykza/s2L9B+3kfKXEYR0PH1lk6Kyimjz+z9o2dYar6lBPLeXUH0gjkgrxqqJ7lZusnDqyKyliI6n6rDWUOX7MUsSaLbKT2PvCbKaZzSxNdGfFygaGitjrrqR+UachddfApHyli/s1lA8MqojzUiLX7NMT/ABsrUdq0/rLakUUJFRZltpuqlak8PdTjJ2zNjvY63Za6DmtZ6+susXZGPie9XX73234mSwgXlM5T8NoY/RioEGnUxHB0906R8a3L1mJuQbQpbQMbLOp7TZp8NfQTI2BU0CgAazXKRuL6QSQNp4tuRuXYr7mRVru68mHYyPibbRn8HMQ0XjgVbhLZk6iRcvDx81NzKpD9m5Eehlk10yji7tB1sSwaqwb0M4+UorNiZWOd7Z+adOiW8fzgjmbbxPjYjWKPrVneEnSn0yNbXaJm0dpvj5aYmPSttzDeO8dABIjbYy1Yh8Gs6acRcAOPLnKvM2jXdmDIu8fHuA0+hwgmzqnABza3A00WyngNOX6zRQVGLyOyzO33csP3e2qkg++OBg325bun/AEADXjYJUm6vfLfttBYkkllPXnGNemg3syg6fySdCI3Jek9faTVwHxtK+pDakS51DKGUjQjUGZG27HZNx8zVey1yem3v4aVY1D2FVCjROekpKHheGR/0XxgL8iqlSbHUAecqt7bWZ9DH8FT9aw6flCY/s++RYDlXPkt1VeCD1MrpS7Zpqk+kBXIu2vnV4+IpFO8PEs6addJuFbhwkHA2bXiIAigHTTgNAPISxWs6SrZdKuw8QgGdOkEjSgjTV2b8Z06ADfH3xoyow85Fs2Ti2cXw6WP3BOnQKANsDBP/IVfgI0ez+EOWBT8xOnSbZGleBE2JQh9zExl890f0khdnEDTfVR2RdJ06QTQRdn1DiwLH+Y6yQtKKNAOE6dAHhQOk6dOgH//2Q==" alt="Forti Prime Review 2026" class="hero-img"/>
+        <img src="thumbnails/forti-prime.png" alt="Forti Prime Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

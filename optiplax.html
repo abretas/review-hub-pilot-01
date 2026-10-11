@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "OptiPlax",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/optiplax.png",
       "description": "Verified independent editorial review of OptiPlax. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official OptiPlax Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-optiplax" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="OptiPlax Review 2026" class="hero-img"/>
+        <img src="thumbnails/optiplax.png" alt="OptiPlax Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

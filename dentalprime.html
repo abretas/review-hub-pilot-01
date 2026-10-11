@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "DentalPrime",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/dentalprime.png",
       "description": "Verified independent editorial review of DentalPrime. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official DentalPrime Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-dentalprime" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="DentalPrime Review 2026" class="hero-img"/>
+        <img src="thumbnails/dentalprime.png" alt="DentalPrime Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

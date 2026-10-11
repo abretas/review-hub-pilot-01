@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Visivra",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/visivra.png",
       "description": "Verified independent editorial review of Visivra. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Visivra Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-visivra" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Visivra Review 2026" class="hero-img"/>
+        <img src="thumbnails/visivra.png" alt="Visivra Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

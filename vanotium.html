@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Vanotium",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/vanotium.png",
       "description": "Verified independent editorial review of Vanotium. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Vanotium Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-vanotium" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Vanotium Review 2026" class="hero-img"/>
+        <img src="thumbnails/vanotium.png" alt="Vanotium Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

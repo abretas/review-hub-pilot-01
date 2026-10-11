@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "LipoJaro",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/lipojaro.png",
       "description": "Verified independent editorial review of LipoJaro. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official LipoJaro Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-lipojaro" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="LipoJaro Review 2026" class="hero-img"/>
+        <img src="thumbnails/lipojaro.png" alt="LipoJaro Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

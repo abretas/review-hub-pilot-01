@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Serrasoothe",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/serrasoothe.png",
       "description": "Verified independent editorial review of Serrasoothe. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Serrasoothe Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-serrasoothe" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAB1AMgDASIAAhEBAxEB/8QAGgABAQEAAwEAAAAAAAAAAAAAAQIAAwUGBP/EADgQAAICAQIDBQQIBQUAAAAAAAABAgMRBBIFITEGE0FRcSJSYZEUIzIzQoGS0WJjcnPhgqGxweL/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGxEBAQEAAwEBAAAAAAAAAAAAAAERAhIhMVH/2gAMAwEAAhEDEQA/APVijIUZdWKQIQhEyFFRhMIBgcDgQDBsGbS6s26IRsGwOUbKAMBgowEYMVgAqQKBgSDKZJFSDKYMCTGZgpRSBCghFAikAoQQoqFCjIUBkJhQRwahqO1t4Rxxsh78fmcuplHu2sps4K7UlziwzXMrYe+vmPeR95fM4lavJlyug1yT+RRyVtSzh5LIplFx8MnIRYkCgYVLApksKGSygYEsGLBkVLMLMBkUiSkAoUCKRUIoEUgMigQoIUcOrujTVmUlHPLLZzo6vtBy0sP6gNC2mXPvq3/qOXvKYrLtr/Uearue7aoNpPnLPIuzVuT7tQaml9nxKy9H9I0+Pva/1FqVUo5VkMep5uqybeHWzsK7N1eNj8ngDsZWUw63QX5n0ae2FsHsmpY8nk89qJN8sNep2fAvubPVEV2bBlMlhUsGUwYEsllMGFSwYsGRUsxjAKFAhQCikCFFQopEopAKKRKKQQo8/wBsJ3rS6WvTc7LbNqWcZPQI83211H0XT6G/Mk67ty24zyXxCz768zp79WrNs4b9rxmPtRz8GuTPo11upuqW+qUsc01F5X5nLT2mV8t0apwftdJLnlPD6dVk51x6NEoWWVzs2QhFe1029eq8Seunn46avW6+UY17rWn0ai8tep3mht1PcxhXXJ56Laz449pKZwrrlp5pqGx2Qltlj2ceH8J3FfHITirFVNNvLW7ljMny5dfa/wBgXr+Om4jq9dRtXdvM4744TeUeg7I323U6mNsoycXBpr4rJ02o4/DTRUdlj2xUU3LLWF16H3dgZqel1kk85mv+xN1LnV6tgxYMrmlgxYMCWDFgwqWDKZLIoZjMwAikSikAopEopFQopEoUBSKRKEIpHRdrtLXqtDVG2E5pTbxGe3w9Gd6jzfbfVT03D9Oq8ZnZhtrPL0Jdzwjo9PwvR0Q3zquhFLOXev2Psv4ZppVJ93dhrP3y/Y+DX2qzSaNwanB5e5eeF/k+/Raid9clJckko8+Sfj+5icuWa1kfJXwjR719Vqc/31+x20NBp4UZ7u/C/mJv/givCklI7WmKnXjnh+RrhbWeXjzms4dpLW0q9VLxe2z/AMnd9kdNTptLeqI3RUpJtWvL6eiPi4pD6NGGYbnZnEa4bnheax6HYdlJbtHa3GUJOSbi47fDk0vI0ZfrvGDFkgDBiwYEsBYMKlgxYMipZjMwGQoEKApCiUUghKRKFFFIpEIoIpHlu30Jy4dp5Ri5JW4ePieoOp7SV97w/Di5LnlJZ8CW5NM3x5jglDt0LrsrUk3urlL8LzzT+J2asi6bG4KM65Ye3knz8F4Hz8JjbVw6iXdT7xxzLMWn1OLWPUql91TZHcsybg85ON263Miqbk78N7pt8kdvKdle2KtqqW3O6x4TfkeZ4PptVC5t0WJeGYPn8z2S0zu00Y21KS8mv8m+MyM2vP8AEtZiOktslCcq7JxU4ptSeFzR2vZW9airUNOPsuKeE1z5vx9Q13Do3whB08q23Ha8Yz18T7eDaGGipntWHNpvLz0RuQ7eY7IliBUDBiyWFYliwYAyWLBkUMxmYAQolFICkJIgUhJRSKhRSJMgLIth3kMJ4fgORCPmULo/hz+Ze673Gc+TZCY4PrPdZSlaljYzlybIMcOLJP7ODkgtsefUrIBcIBkArMDGAGDMwCsyWIMgGYGYKyFGMAoTGCEpGMAoxjFQiYwGExgjZMYwAYxgoAxgMyTGAAZjEUMGYwAYxgr/2Q==" alt="Serrasoothe Review 2026" class="hero-img"/>
+        <img src="thumbnails/serrasoothe.png" alt="Serrasoothe Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

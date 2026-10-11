@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Mobile Profits",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/mobile-profits.png",
       "description": "Verified independent editorial review of Mobile Profits. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Mobile Profits Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-mobile-profits" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Mobile Profits Review 2026" class="hero-img"/>
+        <img src="thumbnails/mobile-profits.png" alt="Mobile Profits Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

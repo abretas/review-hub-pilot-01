@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "XenBurn",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/xenburn.png",
       "description": "Verified independent editorial review of XenBurn. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official XenBurn Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-xenburn" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="XenBurn Review 2026" class="hero-img"/>
+        <img src="thumbnails/xenburn.png" alt="XenBurn Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

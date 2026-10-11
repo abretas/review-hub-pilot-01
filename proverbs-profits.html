@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Proverbs Profits",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/proverbs-profits.png",
       "description": "Verified independent editorial review of Proverbs Profits. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Proverbs Profits Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-proverbs-profits" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAB1AMgDASIAAhEBAxEB/8QAGwABAQACAwEAAAAAAAAAAAAAAAEDBwIEBQb/xABAEAACAgEBBAUIBgcJAAAAAAAAAQIDBBEFEiExFBVRkZIGEyJBU1SBsSMzQmFxcjJEUpOhwdEWNENiY4LC8PH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAgEDBf/EABwRAQEBAQADAQEAAAAAAAAAAAABEQIDEiExIv/aAAwDAQACEQMRAD8A+2AKedGgBSoBQCoBQCsAFBuAADcAAG4BCgzBAUhmCApCbBCHIhNEIUE0QAEgUAqCgIpUApClQCgFwCkbSTbeiXrMPTMX3mn94ipBnBh6Xi+80/vEXpeN7xT40bjGUGLpeN7xV40Ol43vFXjQwZQYulY3vFXjROl43vFPjQwZQYul43vFPjROl43vNP7xE41lBjjk485KML6pSfJKabZkJsEIUEUQhWQmiAoJAApsApClwUApcAxW5OPRJRuvqrb5Kc0tS5N0cfHsuktVBa6L1v1L4nDDxfM0rzsYyun6Vsmtd6T5/D1IuQeL5b3p+SeVKi1NNwTcJa6pyRqjSPYbY2l5K25mVZbVtCMITlr5mzFhOKXYjr7Z8mPJ+Oz8mxUxpuqrct6uTXFLs5czrJjGr9I9g0XYZLq/NXShx0T0TfrOBQmi7BouwpAGi7BouwABouwRUdeK4fiCAdp1wqqV1TlGyLTTT5PU3ZW26oN83FNmjvOa0OP3o3jV9TD8q+Ry8jXIhSHCiEKCaIACQKQpsFABUFKQOSjFyk0opatv1IuDrXLpGdTj/Yq+ms/4rv1f+0623tsrZdcIwUXdOSUd9ejo3xZlwsmirSeRbGu/NbsjGT0e6v0V3afFsyZeysTaE9+/esT04a6xfwO1nU5zlvOb9YdjbRvz1N2qGkW0pQ5PT4nj+Wd1NSpxa0o2Xy37Hr9lcu9/I+lxMPHwafN49ca4c+C0NYbd2p0/bV+TrrXF6Q/KuX9fiJLOf6+0uddfHOeFTYtGtfx4/M6GVs6iHDVRlo2lF6a6fiZMTaPnrNxx0f4ky7d6+xr7EVH+f9SZsqrjycihUuOktVJarVaNcSVY1tz9CPDTXV8Ecs2WuQ4/sJR7uf8AHU+gwqI0YmHnY+LKdbj9Ip+lq09NUje+/TnWc8+1x4F+BkUTjGUU3J7q3Xrqy37Nzce3zVmLap8OCjvc/vR7u07J6UuVU6k7E6XbDR67y0/FHK2zaSzLFDPx8hO2W9vOXFuLTjovUlry4/EzjyyzevjeuLL8fNLGvb0VFrfYoP8A76mc+g5XR3kdHs80mlvbr9fL/wBPqY5G0q3GU83H876bktx7q1cnpquL4w4dmp5eTtfaWBN12SqlK2EJKS1e6t3dWnHsL58nPVyVN5s/XiThOuThZGUJLnGS0aN6VfVQ/KvkaQzcuzOy7Mm1RU7Gm1FaLsN31fUw/KvkT5GORCkONAhSEUQAEgUhTYBSFKgp09pS341Yi55EtJfkXGXfwXxO4dHAtryc/IufHT6Kt+rdi+L+Mte5HXjNmmM+RhxyNXZVVYmktJLil+PxZ04bGpjbFwhdRo/8K16fHu/iz2AdvX7spr5fbtk9g7CyE82y53JVVqfOPPefd/I1nO+T3k1D0v8AMfaeW83nrPsjJ+Y2fGFa09dkpLX+HyPhZR4m2aSslN0qZ7y3G9NOZnntC2zdTjBqL5a8zoNaFh+kjMNcnJyk5Pm3qdmO0s2FMKYZE4wgtIqPDRczrR5IM2yX9JbPxzuyLr5b11tlku2cmzHq+1gGhvPtZG2+fErIwCN7VfVQ/KvkaJRvar6qH5V8jl5ByIUhwoEAJogAJAACClIUqDDmO1YV7oWtyrluJftacDrbJz9lyphDGyKFJRUXFyUZ8PU0+Op3zq5Oy8DMbeRh02SfOTgte868dSD0PwPP23kLCwJ5cppRo9Pd/al6l3nT/s7iVvXEvy8R/wCjc0u5k6g8/JdY51+bVF6xrs4JP79OZ19+azHhbSxd3yEtqjJXZmTON1kYvWTk5J8vuR8S8LaD/UrvAzcPVeF7Bd7HVeF7FeJidQabezs9/qd3gYWzc9PXod3gZuTqvC9ivEy9V4XsV4mV7QaaWzs9L+53eBnHoWZ7rb4Wbn6rwvYrxMnVWF7Bd7HtBplYGbJ6LFtb+6DOXV2f7nd4Gbk6rwvYLvY6rwvYrxMz3g031bn+53eBk6tz/c7vAzcvVeH7FeJjqvD9ivEx7waaWzc/3O7wM3RXlUKqCd1f6K+0uwx9WYfsV4mOrMPX6hd7I66la7MZRnFSi1JPk0ykhCNcVCEVGK5JeopxohCkIoAAkQpCiAUhSoKCFKgpTiUuUUEKbooIDdFBANFIANAEBOgQAygQAiiAAmiAAkAAIKACoKUAoAAUKACgAAFIAaAAMAgBgAAkQgBIEAJoAAlr/9k=" alt="Proverbs Profits Review 2026" class="hero-img"/>
+        <img src="thumbnails/proverbs-profits.png" alt="Proverbs Profits Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "SciatiEase",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/sciatiease.png",
       "description": "Verified independent editorial review of SciatiEase. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official SciatiEase Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-sciatiease" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="SciatiEase Review 2026" class="hero-img"/>
+        <img src="thumbnails/sciatiease.png" alt="SciatiEase Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

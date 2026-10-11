@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Sciaticyl",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/sciaticyl.png",
       "description": "Verified independent editorial review of Sciaticyl. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Sciaticyl Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-sciaticyl" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Sciaticyl Review 2026" class="hero-img"/>
+        <img src="thumbnails/sciaticyl.png" alt="Sciaticyl Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

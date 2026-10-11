@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "SharpVision",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/sharpvision.png",
       "description": "Verified independent editorial review of SharpVision. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official SharpVision Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-sharpvision" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="SharpVision Review 2026" class="hero-img"/>
+        <img src="thumbnails/sharpvision.png" alt="SharpVision Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

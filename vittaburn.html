@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Vittaburn",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/vittaburn.png",
       "description": "Verified independent editorial review of Vittaburn. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Vittaburn Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-vittaburn" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Vittaburn Review 2026" class="hero-img"/>
+        <img src="thumbnails/vittaburn.png" alt="Vittaburn Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

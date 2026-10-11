@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Novuburn",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/novuburn.png",
       "description": "Verified independent editorial review of Novuburn. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Novuburn Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-novuburn" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Novuburn Review 2026" class="hero-img"/>
+        <img src="thumbnails/novuburn.png" alt="Novuburn Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "DentaVive",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/dentavive.png",
       "description": "Verified independent editorial review of DentaVive. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official DentaVive Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-dentavive" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="DentaVive Review 2026" class="hero-img"/>
+        <img src="thumbnails/dentavive.png" alt="DentaVive Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

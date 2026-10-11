@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Focus IQ",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/focus-iq.png",
       "description": "Verified independent editorial review of Focus IQ. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Focus IQ Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-focus-iq" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Focus IQ Review 2026" class="hero-img"/>
+        <img src="thumbnails/focus-iq.png" alt="Focus IQ Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

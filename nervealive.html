@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "NerveAlive",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/nervealive.png",
       "description": "Verified independent editorial review of NerveAlive. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official NerveAlive Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-advanced-nerve-support" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="NerveAlive Review 2026" class="hero-img"/>
+        <img src="thumbnails/nervealive.png" alt="NerveAlive Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

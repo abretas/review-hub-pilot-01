@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Tinnitrol",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/tinnitrol.png",
       "description": "Verified independent editorial review of Tinnitrol. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Tinnitrol Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-tinnitrol" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAB1AMgDASIAAhEBAxEB/8QAGwABAAMBAQEBAAAAAAAAAAAAAgABAwQGBQf/xAA5EAACAgIABAMEBggHAAAAAAAAAQIDBBEFEiExE1FhBiJBcRQjcnOBkSUyNaGxwdHxFRYkQlSSsv/EABkBAQEAAwEAAAAAAAAAAAAAAAECAAMEBf/EACERAQEBAAICAgIDAAAAAAAAAAABAgMRITEEQRJxIjJC/9oADAMBAAIRAxEAPwDtQ0UhJHY4FpCSIhJAVpCSKSGkBRItItISQKUkXotISQMHRehaNIckK5W2RclHS0vULelSd3pjomjnyuL049sIyw9xnvTVnX8jr92SUo75ZJSW/VbCa7VrFjPRWjTRTRSGbQWjRopoQzaC0aNBaMDNoDRo0FoQzaCzRgaEM2QTIKVoaChoFLSGgoaArSEkUhpAVpCSKSGkCkSLSLSEkBUkXav9HZ9qP8S0jDLvjWq6d9bJc2vRL+xOvS8e3meJ/tWP2WeprW6avu4f+UeT4ldBcVr2/h5HpOE3rJwIS3zOHuN/IjPte/Tq0Fo0aKaNrSzaC0aNBaEM2gNGjQWhDNoLGwsQzaC0NhYpZshbIIWhIKGgJIaChICSGgoaBRJCSKQkBWkNIpCSJUtI8z7USksnSbS5FrqeoSPOe09MXfCcrIpSio8q6yXr8gst8RWbJe68tOT8Nvb/ADPR+w8pyx8xSk2lOOk326M+BZQ2+WE48vm0z1PshhfRcO+fixn4sk+Vd468w/DU82Kus2dR91oLRo0BoprZtBZowMQDQGaMDEM2FjYGKaDAzRgYgGQjIUFoSChIGGhoCGgUaEgoaJJIaAhoFQ0NAQ0BYcRy1g4NmQ1txXRebfY8rbRZfu/LnJ2T66T7H3vaNKXDFF9nZHf7z43NOa96Rt489+mrl5c49vmSqUJ622vmdeHlW8PsWRTJuK/Xg30aNrMKfIrZ1zUH2k4tI551qMJRXZrTN2seGjPyM9vbV2RuqhbD9WcVJfiRnNwp74Vi/do6WcjtBgY2BiAYGNhYpBgY2BikGBjYGIFkIyCFIaAhoxhoaAhICaGgIaBRoaM0NEqNDRmmNMC+d7Qv9Hw+9X8z5WE61kVO3Xh865t9tH0/aGS+hVx31dq0vwZx0YSuri4S02k3zdupu47JPLl55bfDvh4sZzd8Z62/FlPfLya6+mvI89Z2PsPh1rpand0ik0ttpd/gcOVhOmqc5TT0uml66NsuZ35c/W9WeH3+EfsrG+wdLOThL/RWN9g6LJxgtyejj1ZnzXpT0jCyo2Rm/dZGZnWdTvN7ZRYGJhZaQYWJgYposDGwMQDISRCgpDRmhoGNEJAQkBaIaM0xJgpomNMzTJGyDko8y2+y33AxsmJM+DXlZfPkTlLllRLlcH2nvr09daOuGfdfJ10Q+sjFOUZQfT5mnfLMf2bdYs9eXH7Q2J5dMF3jHb/Mxpt5Uk9/PmZjxB3zuc74/WdmdfC8nCjXKOXU3LfRuO+h2cdlxNTy87k/lqy+P2Tsiuqsfy3I4cmxyjr4L1Z9x5XCdJqlev1b/qfJ4nbj2Ti8avkil16a2X339Vqmev8AUv6d3BcqyzCjCu2puvcXCzaa9dnVHIhkxTeoWdnFvf5Hjvp7wsiM4ycV/uUY75u3cU82KyYWV5UrFtzdXbk29NfwZwcvHnkn46e9njzZPL09mdjV3qmV8FZzcvKnvT9T6CXLHW9nlIWurMVM8Oym9z5o3y8vx6fE9Nj3eNVtp7T03rv8jXw/GxxXvLXy46z+U9NGwstsDZ1OVTAxNgZQUwMTAxSLIUyCFIaZmmNMxjRCRmhpgTTGjNMSYKcPFOK4+HF49nM7LIPSit6T6HmaqvBx1dK+Xj8/upSe0u3Xr0PaOuuU4zlCMpR7Sa20cuNwvGottsa8SVrbfP2SfdEWduni5c4nmMeFRysuE0qIVciSlZLe29dvi2dtkrMfGhg4yavs2+dR5uZ92/7l4mLDDTjROyMHLmcXLaOiv3LVY+sltI4+bHLvXUnh0Tm4+nyrceyMd51Nlq0lzQn135vRyZ6qpnyp8vRSSfdb8z7KqvnfOV1ylVLtBR1+8NvDMK+bnbjxlJ922zb8acuPOr4c/wAi8fJ9dvMPK5drfN6lO9Spnt7bWkj0n+C8O/40f+z/AKkfBuHOLj9GWn5Se/4nbeW2OTPFjN7kfnufbKeRPw03GL6tdvI7eEcTrwL1e8OFt7TUbZSbS2vL+Z7a7hOHZw+eFCtVVS03yLrtfHb7nn/8n2Rl7l9K97fM4ttryZy3Ndc3F43E6OLweLxJyi+fVdkOjg38G/I9RVXGmmFUd8sIqK2+vQ85i+yca7/EvyubT39WuV+h6TelruXmX7a92fSNhbI2FstqU2FlthbEKYGy2FsQLIU2QQpCRCGMNCRCASQkQgEkxIhAK0xbIQwpsshAYhCEMKtkbIQQLZTIQxgthZCCkWFkIIFgZCCBZCEEP//Z" alt="Tinnitrol Review 2026" class="hero-img"/>
+        <img src="thumbnails/tinnitrol.png" alt="Tinnitrol Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

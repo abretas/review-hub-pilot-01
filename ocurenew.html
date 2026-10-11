@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "OcuRenew",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/ocurenew.png",
       "description": "Verified independent editorial review of OcuRenew. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official OcuRenew Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-ocurenew" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="OcuRenew Review 2026" class="hero-img"/>
+        <img src="thumbnails/ocurenew.png" alt="OcuRenew Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

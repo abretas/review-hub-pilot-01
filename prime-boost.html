@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Prime Boost",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/prime-boost.png",
       "description": "Verified independent editorial review of Prime Boost. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Prime Boost Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-puravive" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Prime Boost Review 2026" class="hero-img"/>
+        <img src="thumbnails/prime-boost.png" alt="Prime Boost Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

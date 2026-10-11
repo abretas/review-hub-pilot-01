@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "RevaNail",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/revanail.png",
       "description": "Verified independent editorial review of RevaNail. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official RevaNail Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-revanail" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="RevaNail Review 2026" class="hero-img"/>
+        <img src="thumbnails/revanail.png" alt="RevaNail Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

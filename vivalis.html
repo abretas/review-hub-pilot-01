@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Vivalis",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/vivalis.png",
       "description": "Verified independent editorial review of Vivalis. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Vivalis Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-vivalis" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Vivalis Review 2026" class="hero-img"/>
+        <img src="thumbnails/vivalis.png" alt="Vivalis Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Oxydental",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/oxydental.png",
       "description": "Verified independent editorial review of Oxydental. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Oxydental Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-oxydental" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAB1AMgDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAECAwQFBv/EADkQAAICAQIDBgQDBQkBAAAAAAABAgMRBBIFITETIjJBUZEUYXGBBhXhIzNCUsE1c4KDkqGx0vDx/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAcEQEBAQEAAwEBAAAAAAAAAAAAARECEiExIlH/2gAMAwEAAhEDEQA/APpEUhIpGXmCKQkUiqEUA0goSGkCRQUsDwMW6K6yXuDDwGBN97k+WCZtpPDK14tMCwcU7Jp+Jjqtm5c5ML4OzAsEVSk5Yb5F7o/zL3DN5wsCaKyn0aBoiIYmUxMIhoTLJYRDEymJgQwGwIhopEopBTRSEikUNDQkUgppA/Axoe1SWJJNfMNT6lp4OK2Ly+R6KjXt/hOOyqMrGovP0K6tKN04RwlyWHlfqazrltfJe36mNMo0xaWG288jWWpWOgHHNPc1tXt+pWni5TxhL7fqOc8vPIqmxRllrIG7r2JvC6fM4Jxeeh6HawsTUsL0ycllUYyeQCmMtrwmdUE1BZJ0sIKLzj7mskk+WMfIM9fEMllslkc0sllMTCIYmUyWESwBgRDRSJRSKqkNCRSCmikJFIKaQnBzfKTUfkVDxIKNVRZuUZruy2vPLn9+pW+UyoUY8nImmHcfnuZpLV6d2unet65dOWcZxnp0Mp6ymiqqfOcZt4dfNJeb+iDeuiNaiuUf9iLod18ivi9Ptk1dBqKy8SOb8z006pSnJ0pRUv2vdyn0YTWEoP0HDdGWVki7iOirct+qpTS3Y3rOMZ/4MZcW0S0/bxvhNdm7VCMlucV8guvWh3495GWor2wePLmiY6+mu1VT3Lkm547qznGX9mVqdZp402TdsOzglunnkstYBrGnDeJZ+zOnbKKypNr0ZyQ1NCvhWrIuU20lHnzSy8+nI66tXp7qXOFix6NYfswno2Sy2SyOVQyWWyWESyWUyWESwBgRDQ0JDRVUikSikFUikSikFXDxI5JcMgoymrJSniW1Swks+X2OuHiQrLHHlGyEXnpJFb5cdvCaZ6eVVmol2bWWlhd7btzkVHC61oqqYXSSjKTcorxKT5r7nRZbY4qMLKNz9U+foVpJuWnUltk8vw8l1DWRh+WJW1RUm64uU5SeOr8vfmYangqtqhv1MnZWoxrltwopZ5YT+fqejKc1Nr4ZteqfUx1Nj6PSTkvX0yDI8dcAphX2ataj2inyj6Q24/qYWfh2VsYxnrpNRgoL9nySUXHpn0fuenDE5pS0koKXm/L6m3YVPrBMGRS4fVdKdk3mUq1XFteHGea9yddw+Fml1NcrXGNuHlpd3Es/fmdlFUIxyopD1GNjzjGPMGPB0XCatNxFal6tznltxaSznP8A2Z6kOGUKiMYS8MUnJYbeBwjHeu6vY7ekAZGUupLKkSw51LJZTJZGUsllMlhCYAwAENEopAUikSikFUikQikFXF4aG65ybxZhPotqeCG8JmtNilBZDfNQ6bVF4tj0/kREYuvSNTTm+eVWsNm9tsYRbMdJb2sc/NjWtnxE8Rsb23dfJ5RnbKpVSzG/Hhw/L/2D0SLfCyq8GuNcrI1p6lNt4m+S9/sdl2oqoWbJYz0XmyNXrI1JqHORwaRxvus7Vqc+TaZNYvfvI9SjiUJR5Vyx82b2amqyqct2FFZafkYwrrr083tSSTZ4l2qwptvPcefIMdddcfXe9TqLmnp4qMM9X1Z0y1N+minZJSyuj8zyOF8Tq+Buutfcpnh7Vnr/APTfjWq/d7PC69y+4Lvj5b7e3CxW1xnHpJJgzn4bLfw7Ty9YI3YN0mSxsTCJZLKZLCEwEwIBFIhFICkUiUUiikUiEPckFLUPGnsa6qLOTSa6M6U7E4v1S5M6pTqlFxm+61hmVWgojHbGc0vlINSWsdVr6oVtx3Sf0J4Pqndp1PGHuaxn5m93Dq5Ra7a1fdHmQrfD9TCqmba697z5kLLPb6LtsI5tXe9jxy+bOf4yeOdWX8pHn8S1eodUtsFBevUFtcWv1kaU25Yfq+px8C1jt4yoPlGcZLn1b6nm6iUpzcpNt+rMaJXVXxtobjOvvJryDlzMuvsNLrb9Rw7iHbtfs57I4WMc+h4euk9liz1r/qjfQvU/DzjNvbZLfJZXNjWnjq9WqJtxjODTa6lbv6eVodXOrT6jTKG6N+Of8rTPb1V8tRWpyjt21qKX0Rrp/wAOURnHbqNQsPPJpf0PW/JtIq8TnbLl5yGNeNbcK/svTf3aOpnPTKmmqFNXggsLnk23ZCBksbJYQmJjZLCEwEwIgQ0ShoC0UiEUiqpFEIpBQ4Rl1SJdUF0jj6FoYVi1Bdc+7F2Gluw3CMpR9zdxi+qIdFb6xQWUfBaZ/wADX+JnPqeF6ScGnGX2kdHZJdM+7F2S+fuytbHiWcC0LfOFn+szX4e4e3+7sf8AmM97sIej92Hw8PR+7Cfn+OTS8F0FUEuyf3mzV6TQ0T3xpip4wnltm/YR9H7saoqTzsWQbGUY1y6RNOxrfWKf1NEkuiwBGdSoRj0ikMBMITEwYmEJksbJYAwEwIhIpAADRSACqaGAAUhgAU8jAAoGAFAAAAsgAECYgABMkACEyWABCYmAEEsAAI//2Q==" alt="Oxydental Review 2026" class="hero-img"/>
+        <img src="thumbnails/oxydental.png" alt="Oxydental Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

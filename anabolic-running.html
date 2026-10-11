@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Anabolic Running",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/anabolic-running.png",
       "description": "Verified independent editorial review of Anabolic Running. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Anabolic Running Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-anabolic-running" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCADIAK8DASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAIDBAUGAQf/xABFEAACAQMCAwMKBAQCBwkAAAABAgMABBEFEiExQQYTURQiIzJhcYGRscEzQnKhFWLR4TTwByQlJkNzskRSU2R1goPC8f/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACoRAAICAQMCBQMFAAAAAAAAAAABAhExAxIhE0EEIjJR8GGBoXGRscHh/9oADAMBAAIRAxEAPwDz+iiigAooqw0WKylvW/iG4wpEz7FbaXYDIXPTNAFfRWsXUOx8LK40e6ZsA7WfKjh+rjTq9puz0K7YOziHhjL7c4+RoAx3Ono7S5lUtHbyuo5lUJFa4du4Ijm20O3jPDjuA5cuS0h/9Id/jEVlbIPbuP3oAoI+z2sSY26bc8c84yPrUuPsfrch42gTjjz5FH3qZJ281l/VFsnujz9TUWTthrkn/alX9MS/0oAdTsRqzEbzbxg+MmcfIU9D2FvCw767gQddgLH7VWP2i1mT1tQm+GB9KjvqmpSevf3J/wDlNAGph7Bwf8a9lbh+VAOPxzU2LsVo0ee9knf9UgXH7VgnuLhxl7iVve5NMsSx4kn30AeoxaH2ZtecFpw/8WbP1NSFk7O2/qNpUfuZK8lxXcUAevfx7R4lCjU7JQOQVs4+VVmo3HZHUWL3tzaySEY3plSPiOfxrzPFGKALjXdP0i2Ak0nUxcqTxiZTuX44wapqKKACiiigAooooAK6rFGyOdcooAck5r+kUkClv+X9IoApFJCQtKC0sLTipQVQ0EpyOFpHCIpZmOAoGSTTqx16X2X0GHSbVJpYw97Iu5mP5Afyj70rBqjCWfZvULmcRvD5OOrzeaB9zTPaHToNIvI7aK4Nw3dh3bbgZJ5D5V6Hqki2xMiKe+YeHIV51rMN1e6lJNHG8hIGAFJOAKExNFS3hU3RbOK/1OK2nd0R85KYzwBPX3VAqXpszWt/FOMjZls4zwxVMlFlqmhm1Qz2rtLAOe71l9vtFVG2thaarbyWrM6quB569COtZ+7sxETJCwkt2PmOpzj2HwNSmNorttcK0+VpDLVCGSKTS34UigQUUUUAFFFFABRRRQA6/wCT9IpUfGuldyJ+mkIcNg0i0SVWnlSkJin0xUmiLzstov8AErwzSg+TW5DP/Mei1qbXWDcXrqrLuL7cDktd06E6V2UVSNkroXfPQt/bHyrzLyi4jvJVW4MazP5zeznmghs2ut9pba1vJEgPfSrkbjyB9lR7G8tf4O89mjd7LkcTxDczx8KwkpBlYqzMpPAtzNXfZxkuornS5W298N8RzjzwOXxH0p0KypmgcgzEAI7HDZ4E1MtokaDu2KiTJ4mpOrP38GnWfmiS2jZHA4cS3P5YpE+lyYXYxUIMKBzz1obGlRFmYQRtHuBPsNc0hibowlsRyjaw6Vy+097aQbQSrdaRZhoLxQwwc4pKqFy2SJYzG7Ieakg0y4q11aFBIJozwcDePBsfeqt6pEsjSU1TrjKlqapiCiiigAooooAKKKKAJI9VP0/c0mVOG4cxzro9RP0/c0pWpFrlCoGyBxrQdmNPF/rUMcuDFH6R89QOnzxWbUd2/s8K03Z278nXULnG3bb7Vx4k8PpUstYNP2tv0itREresCa83uI2nuWYkJGB6x5Cp9/f3NzGIpWXdGmSSelQIMzQTmQlvN4UIl+wRPYRHLLLKegGAKmPMzW6y28JhEYDlgRnrjB+BqmqZe95ClvESVbuBvXPMElhn4EVVEWxTalLJei47tWkJzgkkE+7Ndl1e8eQncqexRwqZ2e0xruWZxgsiDYPaTjNN3+jNZ2Edy7Y7ziBS4KVsnWJa7tGklfcyDJUjgajXqwxgODxHTqKrrK8mtZPMbzXG0g8qm36GcCcLwaPp41LQ07Gbe4aaK4D8c4YezjTMhz5o5mk2LbWlU/mjI+9dByS3wFWiGNzYC4HKmKdlORTVMQUUUUAFFFFABRRRQA/+SP8AT9zRmuH8OP3fc1zrSLRJh2M4BIA6k8avtPtzJYMiZ9JLl8+AH96ziEo2GHKtfZSiz7KzTyr50gzGeuDms2uTa1tMtqAZ9QlWMZycDFA9Bb7RzbhS7Ql0ZiMs/NjXHXdJnoKq6dGTHDokslil3FJGQ5I2HgQRzpEOlXNxHLNPIqJEnrM2SccAoqw0thPusXPr5eI+DgcvjjFTtVe1bQbcW3mMrDvF8cjx99VZNFbps0trdwG1z3isAqj83HlVzrtuLiEE5C7dwXPq+z51Radc+T6jbSniFkFazXolS1iQ5EuTjh0NJjiYjT7FriWZjwSFCxPt6D/PhVjp0ySK1q/Ngdh+1OamVsbZYFO2SUZZQenifp86g6UN+oR/y5b9qMoMPghLF3c8q5xtOP3xQTgADpUiaLdczAHDbwahueJ99NCkhLnhSKUxpNMkKKKKACiiigAooooAe/4cfu+5pJ58aCcRp7j9aTupFJjiPtYHn761+snHZuGEDG2JfpWMBrW67Lts2QnlGoAqWUmUdmf9VXxGfrTjYqGsvdBUHLA/rSmnyOBrNp3Zqq20WeiqG1e3z0JPyBNK1ICGzdCMETDifcahaVNtvM7grlCFLcsn+2akao6eSYd1MzOGwGzwwf61Zm0c0GxbUb9cnEMJDysOeM8APaa0GtazGssl3IiyLGdkKZ9Z/E+wVXdnw8eg6jJDgSM6qCenA/1qv1aJl0+2YnPnMD78D+9O+RUVs91JcTPNMxeRzkk1I0ecR6lGWBIYFcD2ioRFdt2KXMTLzDgj51RLVFrMoOplcc3A/eqiQ4kYe01fS7f4qg6jzmrPscknxpRHI5RRRVEBRRRQAUUUUAFFFFACm9RPd96TSm9RPjSaAO1oO0DM8ELL+ZFY/If1rPVf39tNc2IkjyyoiDgOHIdallxKSY+lauBqsBpTcDKzITxwVqNewR27qiMzNjJzSUk3Rq9DUhDe8EYmlKeNcVGY4VST7BTncSou5o2VfEjFU6MoqT5NH2fV5NGu0Uc54wPjz/ak65B3Vi/eOue+BjAPMYOaqLbUrm0tpYIWASTicjJHuqPNcyztmVy3HPGposQR1rsIxPGf5h9aciQzHLHHSrjRkiS/KR227AbZNIRk4HgeAp4CrwV000ialLJgkedz91V9aruUhiEr92xdI3KnHENzGPYKr2tYFdtiIVycHHMUtyWQWlOXpVlJRVhqKBIVCqB53QVX1Zk1TphRRRQIKKKKACiiigBzYWRSMda6sJY4yK6D6NfjS0Jz76ltm8IReSRYWUL3UYnf0fEnJwDgZxmtLa3wuraDcIoAxMboGChTjzSM9OHGs3Gc4AqauFXJ5AVhKbO6HhYTVrgduLhYpjJHOD36elhGSAwyOf7iowniznu8t1OBRYRi5vgZBlFy7e4VNZFa8tJ0i7oMwVlxjBz4VE580zTSjsXlIMLP3rlULO5zgDp4UsW0+oIdkTOsfFttWUci3N8kyoQ6B0k8OoFdtJBZWkCmZYmY944PNgeAFZPUfZclv07exXWOj+WI7p3KohAZpXwBmp8fZ9Rsbym27ohi0kfnBcCloVtUuo1eFdzq694cjFOHUEMKxy3SliHBaFOABA4YqJamo35Xx/hntp+VI5DpljMjG3vXlKMgb0e0YJxwzVfdRrFdTRLkqjlRnwBqZFIljAWhWd1kZTuZNq8Dmuxxi+lkkhs2fLElnkwMmnBT3PLXz9DWM9ttvgliKztrI3ItY5XWGM7WJwWJOTVbd3nlKhRbwQqDn0a4Pzp6O6uHlW27mMthYyrjI83POjU4pY0jLGEpkj0SbcGiGlJNyYRcYzSll45KHUz6ID21W1a6nt8lXgd3ec/Zg1VV6SweLqethRRRTICiiigAooooAdH4a/GlKcUlfw1+NdWpZvHsSrdhnOOVSJGLhYk4s5xiocfDGaftGMl9CR1kUD51i482d0dVqG0so7LULK2kPche8IBcMCVGfCpMNpe+XS2cl0u5FExfbu8OWasLlTaeVyyvlJyiRrnPHGPh/anUT/ei6H/lf6VO2LyjDqTKq3051ubId/KI7xdzlTtOcZxTg0xGisZyGcSTd3JuYnIyQPpV7p0Uc0FhGfxI4UmX3YKn61zTQhtrK3cfi94y+9XzWiSIerP59ytisoF7krCn+MZOXQbuH7V02Aj8phK+Y91Hj9JIqwjj/wAP/wCpOP8ArpQnSexSRiA0d6sTn3ScP2IquBbpFVe3fn6jbTbmUACIKmQuB401pMjT+T2cKspWXvZHB4FR0+lXdxDcx2+tCVNsG1miOPWyOJ+lQtDsVOizSrcJBLcEp3jflUc8fvUu9xrFxWk/t+9EOxZZ+0bMnFSz4Pwpq4X/AGHG3jcN96fto7TSb6GfyxJgJGjYLjzVwRu4GmtWuLVbSKys5e+VXaRn6ZOcD96nCdm3D1I7ccfizO6mfRIP5qrasdSx3a+O6q6t1g8yfqYUUUUyQooooAKKKKAHV/DFLRcmuRj0Yp5FwKzbOrTjdCXOFwBxNO6fwvrf/mr9abaNi2eAHSgqY13Z4g8MeNI1aadm0vyskeqRMVDQNHMgJxnCg/Y/OnLi80+Ga41ZLyORprfu0hU+du9v7VityZzJJk9STmo4kllmCRZyxwqipUSZuMVya+HXbe1vNNlQu6Q2vdTALg59mefECoz6+ifw8xR7Ws3djuYYfceXyqthh05Lm7SeYPHHLtXfIc7OOSuObZxUOSW1/g0UaBRciQlzt4kdOOPvQnZn1YrsXj9qJRt2LCuydpxwLecc8PdxqFNqNykLpL3qRXL98QU2hz4jP2qrNzE2nJAVfvUkZwwI24IXn8qXqGotfY9GIxvaQgEnLHGTx5DgOFVtdi67WEi1uLzUJp4YLiWRpJBsVWlzgeBxyqPKJI/KQ4G62YK4AJzk9KhT6pdzyRyM4V49xBVQOLcz7zTBu7gs7GeTMgCudx84Dhg+NJQl3F154TLl4QlvZStPtW5YAkgAID1qNqE62sqJGCSVyys4YocnhkcOWD8aqiSQASTjl7K5VRhTyQ9Wbyx6e5ecAMAAPCmaKK0MwooooAKKKKACiiigB+AliFxwHHNS0FQoQ5zsIHjUhYJG9aY/Cs5I7dBuuFY1czMZSFYgDhwpgknmSa7KhjkKnpSatJUcs5ScnYUUtYZG5IflXEIWRS6blB4qTjPsoslprImiru3/AIVBd3atskjWXCBlL7o+OQpH5vV4mmGlEmiw2iRSCVZCzHbgEdOOftUdT6DUW8FeIJWhaYROYlOC+07QfDNOXNlcWqo08RQPy4g8fA+B4jgfGpPdyPZxWxAASRnB3cTkKP8A61MuVuL5C8yrsRizmOMgb2xkk+JwKW92arw+o+xEbRpEure3knhEkzMmASdjDofjw4V19MjhN6sjvI1vtUbBjcx4Hn0Bq7m0LVTGLm6im2xx95vdgCAP3z+9SNM7MTajai6E0McbEjLkk5B41Kcu5XQ43NqvnsUbabZJbafIXbdIw78BwSq9eHSm7+xieZPJe7QbPPCFiu7J5Z48sfHNaNdAi8qit47yJ5HmaN1VR5qgZ3c/ZSdX0y1traK5sZnkhZzG2/ow+A8DSTkuTSPh4Sajuz9DI3VobZFJfcWOMYqNVnq34cfvNVldCOOSptBRRRQIKKKKACiiigB6AbSGz8Klq1RIzhKeRsj3VnJWdujLaqFSNGWyVyw4cqPxcRonnMQFxzzTcn/eHxp/T+N9b/8ANX6ilhFOVtomx6XfHyjdGI/JkDy7yBgEZFWA7KSm0eZp4RdCPvTb4y2P8+yrPVd0VveMFJ8pniUkD8oA++RT6yf713Z6eSAfSov2CUnRWWPZ6GS/02IyO0Vxb9/LjA2jwHxxUq10a0kfSNsOe8eVpiSTuVTwB+nxqz0544YdPmb13gSFfkWP0puyuUg0+0kPrlzEv/uk4/sKpIzerLt8yOW8UERtu7hjTGpuPNUDgN+BSYbZY9ObeP8AEaiJCD1HeYH0/emVl4Q+zUXP/VSbi/DGc5AjguYlHgMEZ/cmqEm2+CRdXJVNbM92m2UFIomfiCF6D25qq0K5jnhm0m6PoZ+MZ6q/s/z09tOX9ukR1G6uEjbvsCEnBOcdPCmNNmtDZxrNKsMkE3eZI4sKh+o6IV0W0rx/H9HdCRrXX1jfAaPepx7jRctns/Evhct96Yju3OsNdxRu4Lk4UZODwpepyHuY4o7eSGLcW88YyT/+1nuik1Z0uMpasW/p+LM7q34cf6jVZVpq34ScPzc6q66lg8fU9bCiiimQFFFFABRRRQA4vq0pTg0UVLN49h5Tu4HrT1mpS9hHUSL9aKKzZ1JeWzW3Ejwi9kuHxFLsWJS3XGDge/6Uy99bw9obmWSZAht9oOc8eHCiipiYxW7IxHqitLp3dJJKlrHlwi/m24pqS9uQtnGtq/oWMoHPdk8OVFFZy1GnR1rSiuR157hQ5e4hiWKXvSVUthmz/WuRwxPbmXymaSGQszqBjcRxzj40UVg5yau/lGiio4QWz2N5G/mmMRMgy82ebY68BwqLcarFDeSxQ+TIisQHVAcge2iitIaSlJpmM9eUJcJD02u2CWRjimlM3dRqGRCMEE5GTVPLqyNzWWQ/ztRRW8fDwic68bqxun+CHd3rXSopjRAucY5n31GooroORu3bCiiigR//2Q==" alt="Anabolic Running Review 2026" class="hero-img"/>
+        <img src="thumbnails/anabolic-running.png" alt="Anabolic Running Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "GRSUltra",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/grsultra.png",
       "description": "Verified independent editorial review of GRSUltra. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official GRSUltra Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-puravive" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="GRSUltra Review 2026" class="hero-img"/>
+        <img src="thumbnails/grsultra.png" alt="GRSUltra Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

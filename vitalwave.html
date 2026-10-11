@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "VitalWave",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/vitalwave.png",
       "description": "Verified independent editorial review of VitalWave. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official VitalWave Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-vitalwave" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCACFAMgDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAQFAgMGAQf/xABFEAABAwIDBAUIBQkJAQAAAAABAAIDBBEFEiEGEzFBIlFhcdEUFjJUgZGToSNCUrHBFSQ2U2KCkqKyFzNDRIPS4eLx8P/EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACARAAICAgIDAQEAAAAAAAAAAAABAhESIQMxBBNRQSL/2gAMAwEAAhEDEQA/AOtREQ6giIgCIiAIi1VFRFS07553hkTBdzjyCA2oqLzwwT1p3wneC888ME9ad8J3ghGS+l8iofPDBPWnfCd4L3zwwT1p3wneCDJF6iovPDBPWnfCd4J54YJ6274TvBCMl9L1FSt2rwdwuKo/Dd4LIbT4Sf8AMn4bvBCckXCKpG0uFHhUH+A+Ck0WK0VdIY6ebM8C9iCNPagtE1ERCQiIgCIiAIiIAiIgCIiAIiIAqXbD9Gazub/UFdKl2v8A0ZrO5v8AUEIl0VuEYNg9Th9K6WmjMz2xk3za9aiYZhGGzQDewMc9sjhzuRyW/DKk09HhW7jLs4aXF3Kx5LDAnSPq5Whn0ccjiXd9ws9mbx/DZTYHhr4WF9Gy5vfU9ZUiXAMKbAXCijB67nxUijN4WdhcP5ipVQQKUnqUW6FKzmarDMOhiDvJmAntPWvaTCcPlhzmmYekeZ4Ke+CCugILXb4NuxRaObd0BaxpMpcWtHUVRX9NGlrRLjwbDWOA8lj67XPisX4bh2YbunYQOOpWmWtraRpbVw7twbo8jiezktzK2A9C7TpmztIsfnxUXMmom+nwqjmNm0cQPeVhh8EdLtU2KNjWNEJ0HBIMXiikETxkfzJcLe9Kasy4xUPjyEmJgu4F31uQHFaQu9mcqW0dNmaTbMPemZt7XF1Enkyyvsw2bY6WWszOmniIFgDz4q9kexssCQOaw30ZfkzdLqWphLn3J0C1cawu7NFNkexk269WLPRGt1kpNINtWwiIhYIiICnx3EqujnpKeiZEZKgu1kvYWURtZtA5tx5B7nL3aMXxfCgDa5fr7ApP0kYAED3gc2keKynKSeiFTuyG+u2gYLkUPsBWAxTGy8MD6AuJtYBxXuJVssMQG4MZcbB0pAHyXuGmGolcYXhwZa5tYKuUx/P02mp2hAv+Ye5y01cWMYpQyUlSaQRyWDslweN/wVpVxmKGJ8pytc7gHWvosgwxNaTezgCD1hTlIitdlI3DMQjpIqbPAY4hZupuAtUcFVhLN4XRujlkAcATxV7UWMVw4gjUEKux54dhkAJF3PHAW5FTHZR6MqN4dHob2e8fzFSpyHRBjnWDiodNHDS0u7ZI/LGLku5310Witq4YCN7KXOIuGjVCSxjLc0cdrtAtfuWqAxy4gY2xgZiCXDsUKKtjiha+Qbp8voNcdbdfYp+C5JKiWRha7I0NuNdT/wCKEv06deqyZWPY6XI5ocAOBCgTU2GtY6SWmh0FzdgWype0zSvDiDfkotVGJoDG95ObmOKbs59UUUda6FzjDHC3MTYbsaA8lYwlzMRmEjhnNOwusS25zdTdSo8eDHOHCf0XXAIWxj3/AJYqcztTTC1i4X17NT3LS1Zk1o6Cpl+mkvwbqe3TglC98rw94HHQNUWqfmkmcb2aQdNNALKVhc7ZNN0QQLhUT2HFli7+60baw4KKXiJ3C73ANaOsqW9jpIyGjKe1QpHCOqnmcLiGO7R2lXbpEJEunY9oJfJnv2WHsW9RMOmfPSNkk4u7LKWpRtBUgiIpLhERAc/tBrjWE6X1k09gW5rpWm7mnhyK04+xz8bwlrHZTd+vsCk1z4oqdzqibds5ngfYs5Iz/WQsWo317ImbwR2dfpDiscKoZMOe9plY8SWGg5qvl2hdvi+OFhjHobzj3rbR4zLNM18s9PG0G5aIj96U0qItNnVVzYnxwsmtlje14zGwuAUqZGTULJA5pyPLSRwVTPM+upmslla9ubMC1uhHJZ0XQw807z9C1xdc6FJOls09E0smY1EjTHYEG2vFVuLDLR0g19O+vesarFqI1jKSMPlkIuMug4X4rVWiWrfG9kbxkIuC4Hh7VVOnsq1a0WbnVTXkAROZ9UEEH3qpq3Nbj1FJVsbHG7R1zdul/wDhJqOpfI6QmYNJuAHf9lFfhlTPIA9hfb0buJt/MpTX0q0/h0c9Jg1Q4zy5CXfX3hF1KpGUVHA4UmRkbjf0r3PeuZiwWsyhoc9rQPtf9lqnoHRxvBqOlFYuaS7s14oqfTDtdom+W4pE47yiZIP2SR4rB2MtB/OKGaM9bdfBYigudcRi+If9yl0UcVM2RstZFLnNxd3D3lAaI8WoHabySO/2mFR4Jo5sbm3Em8aaW125vdpqVaPjoHjpOpz+8FTiOGPaGRlPlLDTHRvSF7HtUxexJaLuSJ8sUhYekToptG1lLDnLdGtJdbnoo1LJaNoI0IU2ECZ74gWubbKQfmoXZea/kjSY4Q3LEwCw0vqpMYFSx28A+maM3uW1uH08euSFtv2brW2aOI3keGg8Fpr8OZWTaZoZEGNJs0AWK3KLTTwzzSbh+YNaA7qvqpSHRDoIiKS4REQHObSBhxfChISGkvGhIPLqXPY7CaSuy7xr8wzBgv0RfnxXV7QYNLiu4dBO2J8N/SFwQf8AxU79ka6Rxc+sp3OPElrrlVrdmck/hSRVcMVNI19M2Vz9LuJt7NFCD3B9mloF9NT4Lp/M+t9cg9zl55nVvrkHucpKYyImGY1FQgRywmaxuekQAezRWztqqGaN8TsKD2uFnAyHX5LTDspXREkVFI4n7bCVuOz+IgH6egtzvCVFFnm1TOUDo37SB0LDGwk5Wk3LRl610tD0mydecfcufmpZ6bandvY2V7TqYwQ09HkrUYhFTF8ckRjcTq0k3KpOFsp7cNU2X74ZBSuqA3oMGa60OgqGQMqsnRkGl+V1jT4zHHAyIVbGxhtg066dXBe1mMwuo5B5exxy6My27tbKHxKiF5Um6xdG1jnCMvcRmHAW4qjMX5Sxqehc8sEwylwHDQFZUeONmzNmdZw1ytF7hQ8AqhUbYMc0EBxOhN/qqOOLT2bTadFn5gUvr038AXnmBTevy/DHiuxUWoxClptJZmh32RqV0JN6QcYrs5j+z+n9fl+GPFajs5HglbG9k7pWyRvF3hoANu1Xz9o6Nvosld7AFrxaVtTFRTRlwEgcW2vfh2KZccor+kUbg1/JqpWB0DS97WtOl3Otra6nYVSsbC6RsmcPJIygge9cthtdDC18U8tzfgWXcbjrXU080klKGQxPcMoAc42uLe5ZqOw5uSoyrsRpqGEGV0Tc9wL6n3Lm6yqLYoBmaAczjf2K5xHZ8Yi+IunMTWA3sMxKlRYHQMbGJIt8YxYGQ3+XBaxxVWVwkyNswQ+mmeDfM4a+xXaxYxkbQ2NjWNHANFgslWTTdo2iqVBERQWCIiAIiIAiIgCp9pWPNFG9jiMr9R13CuForKcVVJJAdM7bA9R5KYvFplZK00cTn7wVhKBIDnAdfmePvWudzo5nQyjLIw2I7Vq3tl60anG2cD0y5o66ia1sdVSaAWzscfuureKLBKhlhkIPFr3EfeVyAkusy973NIeABxFuKyl4sH1ovHlaOwGG4MzUMhH+p/yozTgmHVDqilgY6oItdlz8yqBrgsi64VY+HG9ss+d/iLGtxipqbta7dM+y3j7Sq0kLECxJuST1rFzl1x44xVJGLk27Z65wAXZUtJG/DKeKZgcBGOI4aLioGeUVkMA4yPDfmvoIAAsOAXD5j6R0cCu2QqbCKCldmipY8/2nC5+amr1FxHTQREQkIiIAiIgCIiAIiIAiIgCIiA5/aTAnVwFXSAeUs4t4Zx4rj5A+OQskY5jxxa4WIX1BchtrSZJoKxo0eN2/vHD/AO7F2eNytPBnNzcarJHPNctrpm7xrY2ntK1RtzELaMu8ysOa3Er0DkNzXLZm0WngFsbq0qQYzySZMrANefUtcktmrIkBwLhcDkoU0jiXEi2ugUN0SXmycRqcZ3p1bAwu9p0H4ruFzmxNLusMkqHDpTv07hp9910a8nnnnNs7uKOMQiIsTUIiIAiIgCIiAIiIAiIgCIiAIiIAuX2tq3SN8ia2wbZ5JHE8rLqFXYvhbMRh0IZM0dF34HsWnFJRmnIz5E3GkcLR2ErQ7gVNlia0mwCi1tHUUM5ZPG5hvoeR7it0UmdgvxXsRaatHA1WmAzM4NvZTW0TRcBsoIHEt0KiG7SCOKkeUNuHFhz9+irK70EQ5mZbhVsozPsrOocSHONtVHoaCoxGpEdNGXC/Sdbot7yom6i2yUrej6BhcTYcLpY2CwETfuUtYQx7qGOMG+RobfuCzXjM9FdBERCQiIgCIiAIiIAiIgCIiAIiIAiIgCIiAwkjjlYWSsa9p4hwuFXSYBhzyS2ExE/q3EfJEUxlKPTIcU+0azs5Sn/Fl+XgvPNujv0pJz+8B+CIr+7k+lfXD4b4sBw2MgmmEhH6xxd96sI2MjYGRsaxo4BosERUcnLtlkkujJERQSEREAREQBERAEREB//Z" alt="VitalWave Review 2026" class="hero-img"/>
+        <img src="thumbnails/vitalwave.png" alt="VitalWave Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Serenity Prime",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/serenity-prime.png",
       "description": "Verified independent editorial review of Serenity Prime. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Serenity Prime Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-serenity-prime" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Serenity Prime Review 2026" class="hero-img"/>
+        <img src="thumbnails/serenity-prime.png" alt="Serenity Prime Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

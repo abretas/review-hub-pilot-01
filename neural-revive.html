@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Neural Revive",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/neural-revive.png",
       "description": "Verified independent editorial review of Neural Revive. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Neural Revive Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-neural-revive" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Neural Revive Review 2026" class="hero-img"/>
+        <img src="thumbnails/neural-revive.png" alt="Neural Revive Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

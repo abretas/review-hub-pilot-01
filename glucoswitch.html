@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Glucoswitch",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/glucoswitch.png",
       "description": "Verified independent editorial review of Glucoswitch. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Glucoswitch Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-glucoswitch" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Glucoswitch Review 2026" class="hero-img"/>
+        <img src="thumbnails/glucoswitch.png" alt="Glucoswitch Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

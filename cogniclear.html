@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "CogniClear",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/cogniclear.png",
       "description": "Verified independent editorial review of CogniClear. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official CogniClear Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-cogniclear" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="CogniClear Review 2026" class="hero-img"/>
+        <img src="thumbnails/cogniclear.png" alt="CogniClear Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

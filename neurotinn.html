@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Neurotinn",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/neurotinn.png",
       "description": "Verified independent editorial review of Neurotinn. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Neurotinn Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-neurotinn" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Neurotinn Review 2026" class="hero-img"/>
+        <img src="thumbnails/neurotinn.png" alt="Neurotinn Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Keragenis",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/keragenis.png",
       "description": "Verified independent editorial review of Keragenis. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Keragenis Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-keragenis" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Keragenis Review 2026" class="hero-img"/>
+        <img src="thumbnails/keragenis.png" alt="Keragenis Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

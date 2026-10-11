@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Nervozen",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/nervozen.png",
       "description": "Verified independent editorial review of Nervozen. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Nervozen Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-nervozen" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAB1AMgDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAgMAAQQF/8QALBABAQACAQIEBQQCAwAAAAAAAQACEQMhMQQSE0EiM0JRkQUyUmFxgSND0f/EABkBAQEBAQEBAAAAAAAAAAAAAAIBAwAEBf/EABwRAQEAAwEBAQEAAAAAAAAAAAABAhExEiEDE//aAAwDAQACEQMRAD8A9ITCITC9z5kIJhcCYUpxgmFgkESkdCQWCYRKRwLoSCQU2Wh1bV6MOPFDZUOLD+MPcaT868mrmr3+jx/xLejx/wAbvcd/OvBqKXr5+LHHHeJrrQSUuwuOkkilVIpIdJJBKqQSo2JJFKqQSQ1JIJVSmkgqaWupaokTCJMoUIJhcJhCnCCYRCoFDjoSCwSCNKOhILBMx6bXRG0pG82RoMRPutU8/l35T80MnevJvpUxz5Na6WVbziplyP04/mT5z6T80TLM9iWXJyPcKKPKuWPxAfbrRSt0yAyUSOeDj/j72mNZZy72ikEqpBJs7E0glVKaSGppTSqkErAqSQSq02cGptrraoukyOMylWGTI4zI04ZMIkyNOEEwuEyNKEFszeQexdC7l8yzya4FhxjNw1d47ZvXR3g0HzB9+nfpd83GY7yU/wAmo9Qcs0A6w4nLlfPiDl7OXbA/9uc7y8vDxcTycmThifyNXfMZYa67TYPco8vhsXxPFllk56y6uT02dgKpj8Wb9zrVLwEppVSCWrGpJBqtNlAqbTarTZQKm02rlTZQam2utpAxUKZUKUoeNQp41MYUoeNTGnjUxicMqY0ypjGnDxtn8y7jcz+ZZ5NcFsLZr7H5ucaPZJZxN4PE+rzJwmWjLvo9r6OOOOHCY4vlD7UMMPj8z3Xd6g+G5zz5AmGOugbP82+lnnj0Tt9tQ+lrEvE8oZVMqeVpGVTYZVGnlKBU8oM8oZSgVPKDPKDOBU21m1QYmUyoXVYpjUKRUI04pjUKRUIU4oVMaRMY04qWy+ZcG2XzIZNcHyfC/p/jeDA9HxWGvLidM+p1VB+23d6ebh8aem4+NDzZ5eo5ZmjHezX41/u9fFw8h/18H33r3qvh+NN58eC/0R+F9fJ4fDfrA8fn5l1mOScpvWuvt2X29i93h+D9ROPH1edch29TT1P67a3ezHpoKx2ooZ0vpaudJ/blWdS8TYZSWmtpGNFgyYMoFDKDJgzg0MqbNgygUMrXMrSBiZTJlKsUxqFIZjGlFSoNIZjE4qMxpDMY0oqMsv30hqv77PNtg54Ryxzzc88XFdmn2vRkjjsTX3o8Txdxy69fevlpx6dmDR5/DZZDl6nJi9emm9a743T7d6Bw47P3fmsZYGPl3c5LDLRl5nXXpvLdxfgW2bxYq7f97bmSek67VnUvElgtlitqwtcWC3VgsoFFYMlprKDRYMlgsoFFtcbSERqDSGY3OiozGkMxjSiozGkMxjSioyGkMxocqo1l+O8wz870s8ptphlJ17eNlm9rxHLke8vWfeHmtfUeorD8N4PWbvrtPNd6j1ZtDkf+PKm87/dPPlcjXYlMbscs5pxYLZYrasdssFssVqNriwW6sFlAri01ksFkNFbXFtIRJlrXOhkxtaJQyQ2tEoYyG1qFCGQ2tQnd23a1HO7ubta5W3cW1rkFYra1UFYLa0hFYNrVg0GDa0hoNrWqL//Z" alt="Nervozen Review 2026" class="hero-img"/>
+        <img src="thumbnails/nervozen.png" alt="Nervozen Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

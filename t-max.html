@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "T-Max",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/t-max.png",
       "description": "Verified independent editorial review of T-Max. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official T-Max Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-t-max" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="T-Max Review 2026" class="hero-img"/>
+        <img src="thumbnails/t-max.png" alt="T-Max Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

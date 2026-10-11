@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "GLPro",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/glpro.png",
       "description": "Verified independent editorial review of GLPro. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official GLPro Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-glpro" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="GLPro Review 2026" class="hero-img"/>
+        <img src="thumbnails/glpro.png" alt="GLPro Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

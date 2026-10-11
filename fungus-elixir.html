@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Fungus Elixir",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/fungus-elixir.png",
       "description": "Verified independent editorial review of Fungus Elixir. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Fungus Elixir Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-fungus-elixir" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Fungus Elixir Review 2026" class="hero-img"/>
+        <img src="thumbnails/fungus-elixir.png" alt="Fungus Elixir Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

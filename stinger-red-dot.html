@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Stinger Red Dot",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/stinger-red-dot.png",
       "description": "Verified independent editorial review of Stinger Red Dot. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Stinger Red Dot Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-stinger-red-dot" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Stinger Red Dot Review 2026" class="hero-img"/>
+        <img src="thumbnails/stinger-red-dot.png" alt="Stinger Red Dot Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

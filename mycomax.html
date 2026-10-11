@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "MycoMax",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/mycomax.png",
       "description": "Verified independent editorial review of MycoMax. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official MycoMax Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-myco-max" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="MycoMax Review 2026" class="hero-img"/>
+        <img src="thumbnails/mycomax.png" alt="MycoMax Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

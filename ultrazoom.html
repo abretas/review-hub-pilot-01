@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "UltraZoom",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/ultrazoom.png",
       "description": "Verified independent editorial review of UltraZoom. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official UltraZoom Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-ultrazoom" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="UltraZoom Review 2026" class="hero-img"/>
+        <img src="thumbnails/ultrazoom.png" alt="UltraZoom Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">

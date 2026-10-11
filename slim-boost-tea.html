@@ -26,6 +26,7 @@
     {
       "@type": "Product",
       "name": "Slim Boost Tea",
+      "image": "https://abretas.github.io/review-hub-pilot-01/thumbnails/slim-boost-tea.png",
       "description": "Verified independent editorial review of Slim Boost Tea. Composition, user experiences, clinical evidence, and safety profile.",
       "brand": {
         "@type": "Brand",
@@ -67,6 +68,41 @@
         "seller": {
           "@type": "Organization",
           "name": "Official Slim Boost Tea Direct Portal"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "d"
+            }
+          }
         }
       }
     },
@@ -172,7 +208,7 @@
     <!-- Hero Figure & Clickable Image with Caption -->
     <figure class="hero-figure">
       <a href="https://healthfirstoffers.com/get-slim-boost-tea" target="_blank" rel="nofollow sponsored" class="hero-img-wrap">
-        <img src="data:image/jpeg;base64,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" alt="Slim Boost Tea Review 2026" class="hero-img"/>
+        <img src="thumbnails/slim-boost-tea.png" alt="Slim Boost Tea Review 2026" class="hero-img"/>
         <span class="hero-click-hint">Click Here to Check Official Batch Availability &rarr;</span>
       </a>
       <div class="hero-cta-bar">
