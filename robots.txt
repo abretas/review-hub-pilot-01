@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: sitemap.xml
+Sitemap: https://abretas.github.io/review-hub-pilot-01/sitemap.xml
+Sitemap: https://abretas.github.io/review-hub-pilot-01/sitemap.txt
